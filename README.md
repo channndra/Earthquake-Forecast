@@ -1,1 +1,14 @@
-# Earthquake-Forecast
+## Dataset Description
+- **Before P Arrival:** training data sebelum titik P Arrival
+- **P Arrival:** training data yang memuat titik P Arrival
+- **P Wave:** training data yang terjadi setelah titik P Arrival tetapi sebelum titik S Arrival
+- **S Arrival:** training data yang memuat titik S Arrival
+- **S Wave:** training data yang terjadi setelah S_arrival tetapi sebelum titik Coda End
+- **Coda End:** training data yang memuat titik Coda End atau titik yang menandakan gempa telah selesai terjadi
+- **After Coda End:** training data setelah gempa selesai terjadi  
+- **id** 
+- **(E-0) - (E-20):** Nilai sensor E selama 0.21 detik
+- **(N-0) - (N-20):** Nilai sensor N selama 0.21 detik
+- **(Z-0) - (Z-20):** Nilai sensor Z selama 0.21 detik
+- **station:** kode dari station gempa direkam
+- **network:** kode dari network station
